@@ -1,14 +1,14 @@
 $(window).scroll(function(){
   var scroll = $(document).scrollTop();
   var navH = $(".head").height();
-
+   
   if (scroll > navH) {
-    $(".head").addClass("show");
-
+    $(".head").addClass("show"); 
+    
   } else {
     $(".head").removeClass("show");
   }
-})
+});
 
 var lang = navigator.language || navigator.userLanguage;
 
