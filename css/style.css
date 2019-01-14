@@ -208,11 +208,8 @@ h2 {
 }
 
 @media (max-height: 768px) {
-  .nom {
-    height: 45%;
-  }
-  #skill {
-    height: 100%;
+  .hero {
+    height: auto;
   }
   .columns {
     top:0;
